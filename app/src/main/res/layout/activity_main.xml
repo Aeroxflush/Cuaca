@@ -15,7 +15,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
 
             <EditText
                 android:id="@+id/etKota"
@@ -23,7 +24,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="text"
-                android:hint="Masukkan Nama Kota"/>
+                android:hint="Masukkan Nama Kota"
+                android:layout_marginRight="10dp"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnTampilkan"
@@ -39,7 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:backgroundTint="@color/yellowish"/>
+            android:backgroundTint="@color/yellowish"
+            android:layout_marginHorizontal="10dp"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"

@@ -25,10 +25,10 @@ activity = { group = "androidx.activity", name = "activity", version.ref = "acti
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 recyclerview = { group = "androidx", name = "recyclerview", version.ref = "recyclerview" }
 androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerviewVersion" }
-androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout" }
+androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version = "1.2.0" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 android-async-http = { group = "com.loopj.android", name = "android-async-http", version.ref = "androidAsyncHttp" }
-picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso" }
+picasso = { group = "com.squareup.picasso", name = "picasso", version = "2.71828" }
 androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
 
 [plugins]

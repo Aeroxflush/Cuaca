@@ -29,8 +29,8 @@
                 android:layout_height="50dp"
                 android:scaleType="centerCrop"
                 android:adjustViewBounds="true"
-                android:src=""
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@mipmap/ic_11d_foreground"
+                />
 
         </androidx.cardview.widget.CardView>
 

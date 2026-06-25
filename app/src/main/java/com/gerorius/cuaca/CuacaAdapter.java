@@ -21,9 +21,9 @@ public class CuacaAdapter extends RecyclerView.Adapter<CuacaViewHolder> {
     private List<ListModel> _listModelList;
     private RootModel _rootModel;
 
-    public CuacaAdapter(RootModel _rootModel) {
+    public CuacaAdapter(RootModel rootModel) {
         this._rootModel = _rootModel;
-        _listModelList = RootModel.getListModelList();
+        _listModelList = rootModel.getListModelList();
     }
 
     @NonNull
@@ -43,7 +43,7 @@ public class CuacaAdapter extends RecyclerView.Adapter<CuacaViewHolder> {
         String suhu = formatNumber(toCelcius(mm.getTemp_min()), "###.##") + "°C - " + formatNumber(toCelcius(mm.getTemp_max()), "###.##") + "°C";
 
         String iconUrl = "https://openweathermap.org/img/wn/" + wm.getIcon() + "@2x.png";
-        Picasso.with(holder.itemView.getContext()).load(iconUrl).into(holder.cuacaImageView);
+        Picasso.get().load(iconUrl).into(holder.cuacaImageView);
 
         String tanggalWaktuWib = formatWib(lm.getDt_txt());
 

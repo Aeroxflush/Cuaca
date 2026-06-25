@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -73,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
         _btnViewCityInfo.setText("Memuat...");
 
-        String url = "https://api.openweathermap.org/data/2.5/forecast?q=" + namaKota + "&appid=d7c1514b62f74fdeb17ccaa27ea45aef";
+        String url = "https://api.openweathermap.org/data/2.5/forecast?q=" + namaKota + "&appid=2fc5c674524a4c5f9a9c3c0a73e15b34";
         // Tampilkan url di Logcat untuk diuji di browser
         Log.d("*tw*", url);
 
