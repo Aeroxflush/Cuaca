@@ -34,7 +34,7 @@ public class GpsActivity extends AppCompatActivity {
 
         _webView1 = findViewById(R.id.wvMain);
 
-        String url = "https://google.com" +
+        String url = "https://google.com/maps" +
                 "?q=" + param.getDouble("lat") + "," + param.getDouble("lon") +
                 "&ll=" + param.getDouble("lat") + "," + param.getDouble("lon") +
                 "&z=10";
